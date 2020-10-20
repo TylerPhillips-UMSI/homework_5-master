@@ -56,18 +56,22 @@ footer{
 @-webkit-keyframes logo_wiggle{
   /*Your code here.*/
 from{
-  width: 25px};
+  width: 25px;}
   to{
-    width: 420px};
+    width: 420px;}
 }
 
 @keyframes logo_wiggle{
   /*Your code here.*/
+  from{
+    width: 25px;}
+    to{
+      width: 420px;}
 }
 
 #logo{
    /*Your code here.*/
- animation-duration: 15px;
+ animation-duration: 15s;
  -wbkit-animation: logo_wiggle;
  animation-name: logo_wiggle;
 }
@@ -200,6 +204,7 @@ header{
 
   .nav_links{
     /*Your code here again.*/
+    flex-direction: row;
   }
 
   .nav_item a{
