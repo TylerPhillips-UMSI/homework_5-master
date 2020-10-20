@@ -82,7 +82,7 @@ from{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
-    flex-wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -142,7 +142,7 @@ from{
   min-height: 600px;
   /*Your code here again.*/
   display: flex;
-  flex-wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
 }
@@ -218,7 +218,7 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/
-  display block, centered;
+  /* display block, centered; */
 }
 
 /*Your code here again.*/
